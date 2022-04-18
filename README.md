@@ -19,6 +19,8 @@ npm install firebase
 
 npm install --save react-firebase-hooks
 
+-requiteauth and routh setup
+
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
