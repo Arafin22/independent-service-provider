@@ -76,11 +76,11 @@ const Login = () => {
         if(error){
             switch(error?.code){
                 case "auth/invalid-email":
-                    toast("Invalid email provided, please provide a valid email");
+                    toast("Invalid email");
                     break;
                 
                 case "auth/invalid-password":
-                    toast("Wrong password. Intruder!!")
+                    toast("Wrong password")
                     break;
                 default:
                     toast("something went wrong")
@@ -97,12 +97,9 @@ const Login = () => {
                 <input type="password" placeholder="password" onChange={handlePasswordChange} />
                 {errors?.password && <p className="error-message">{errors.password}</p> }
                 <button>Login</button>
-
-                {/* {error && <p className="error-message">{error}</p> } */}
-                {/* {hookError && <p className="error-message">{hookError?.message}</p>} */}
                 <ToastContainer />
 
-                <p>Don't have an account? <Link to="/signup">Sign up first</Link> </p>
+                <p>Don't have an account? <Link to="/signup">Sign up</Link> </p>
             </form>
 
             <button onClick={() => signInWithGoogle()}>Google</button>

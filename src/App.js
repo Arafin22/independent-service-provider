@@ -7,7 +7,7 @@ import Footer from './Components/Footer/Footer';
 import Home from './Components/Home/Home';
 import Navbar from './Components/Navbar/Navbar';
 import About from './Components/About/About';
-import Blog from './Components/Blog/blog';
+import Blog from './Components/Blog/Blog';
 
 
 import NotFound from './Components/NotFound/NotFound';

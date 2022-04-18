@@ -71,10 +71,10 @@ const Signup = () => {
         if (hookError) {
             switch (hookError?.code) {
                 case "auth/invalid-email":
-                    toast("Invalid email provided, please provide a valid email");
+                    toast("please provide a valid email");
                     break;
                 case "auth/invalid-password":
-                    toast("Wrong password. Intruder!!");
+                    toast("Wrong password");
                     break;
                 default:
                     toast("something went wrong");
@@ -101,7 +101,7 @@ const Signup = () => {
                 <div className="relative">
                     <input type={showPass ? "text" : "password"} placeholder="password" onChange={handlePasswordChange} />
                     {errors?.password && <p className="error-message">{errors.password}</p>}
-                    <p className="absolute top-3 right-5" onClick={() => setShowPass(!showPass)}></p>
+                    <p onClick={() => setShowPass(!showPass)}></p>
                 </div>
                 <input
                     type="password"
@@ -110,9 +110,6 @@ const Signup = () => {
                 />
 
                 <button>Sign up</button>
-
-                {/* {error && <p className="error-message">{error}</p> } */}
-                {/* {hookError && <p className="error-message">{hookError?.message}</p>} */}
                 <ToastContainer />
             </form>
         </div>
