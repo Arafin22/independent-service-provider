@@ -1,28 +1,30 @@
-# Getting Started with Create React App
+# clone and npm init
+
+# demo site link
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
+## use node pakages
+
+1.  react bootstrap(also bootstrap cdn) and raw css
+    -npm install react-bootstrap bootstrap
+    (all about design parpus)
+    2.it is a react app
+    -npm create-react-app onephotographer
+    3.react router(for routing)
+    -npm install react-router-dom@6
+    4.firebase(for authentication)
+    -npm install firebase
+2.  react-firebase-hooks for easy to handel authentication system
+    -npm install --save react-firebase-hooks
+
+3.
+
 In the project directory, you can run:
 
 ### `npm start`
-
-npm install react-router-dom@6
-npm install react-bootstrap bootstrap
-
-{/_ The following line can be included in your src/index.js or App.js file_/}
-
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-npm install firebase
-
-npm install --save react-firebase-hooks
-
--requiteauth and routh setup
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
 ### `npm test`
 
