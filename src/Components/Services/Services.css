@@ -1,0 +1,21 @@
+.services-parent{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-bottom: 50px;
+    
+    
+
+}
+
+.services-header{
+    text-align: center;
+    color: rebeccapurple;
+    padding-top: 20px;
+    
+}
+
+@media only screen and (max-width: 600px){
+    .services-parent{
+        grid-template-columns: auto;
+    }
+}

@@ -1,0 +1,18 @@
+.notfound{
+    text-align: center;
+    padding-top: 100px;
+}
+.notfound>h1{
+    font-size: 100px;
+}
+.link-not{
+    border: 1px solid rebeccapurple;
+    color: rebeccapurple;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.link-not:hover{
+    color: red;
+    text-decoration: none;
+}

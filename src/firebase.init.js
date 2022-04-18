@@ -1,3 +1,4 @@
+
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
@@ -6,12 +7,12 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBQ5jwQeCWjGhKTx3PzTHUDwMhDGJVkD64",
-  authDomain: "onephotographer-7a9fd.firebaseapp.com",
-  projectId: "onephotographer-7a9fd",
-  storageBucket: "onephotographer-7a9fd.appspot.com",
-  messagingSenderId: "294288893996",
-  appId: "1:294288893996:web:1cea44bf59686800c04989"
+  apiKey: "AIzaSyC503SL0e0gsaN6BwRyD937MqbHpx_MPSg",
+  authDomain: "onephotographer1-b50b3.firebaseapp.com",
+  projectId: "onephotographer1-b50b3",
+  storageBucket: "onephotographer1-b50b3.appspot.com",
+  messagingSenderId: "218708217107",
+  appId: "1:218708217107:web:8f95a9579f5f60722f9ee6"
 };
 
 // Initialize Firebase

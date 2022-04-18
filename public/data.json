@@ -1,0 +1,59 @@
+[
+    {
+      "_id": "1",
+      "name": "Birthday",
+      "price": "50",
+      "service1":" Video covering as need",
+      "service2":"Cinematography",
+      "service3":" Photo Book : yes ( 12x12 )",
+      
+
+      "imageURL": "https://i.ytimg.com/vi/4ba3g4ne5eA/maxresdefault.jpg"
+    },
+    {
+      "_id": "2",
+      "name": "Engagement",
+      "price": "50",
+      "service1":" Video covering as need",
+      "service2":"Cinematography",
+      "service3":" Photo Book : yes ( 12x12 )",
+      
+
+      "imageURL": "https://img.etimg.com/thumb/msid-90833668,width-1200,height-900,resizemode-4,imgsize-69294/ranbir-kapoor-alia-bhatt-wedding-live-news-and-latest-updates-14-april-2022.jpg"
+    },
+    {
+      "_id": "3",
+      "name": "Wedding",
+      "price": "50",
+      "service1":" Video covering as need",
+      "service2":"Cinematography",
+      "service3":" Photo Book : yes ( 12x12 )",
+      
+
+      "imageURL": "https://img.etimg.com/thumb/msid-90833668,width-1200,height-900,resizemode-4,imgsize-69294/ranbir-kapoor-alia-bhatt-wedding-live-news-and-latest-updates-14-april-2022.jpg"
+    },
+    {
+      "_id": "4",
+      "name": "Entertainment",
+      "price": "50",
+      "service1":" Video covering as need",
+      "service2":"Cinematography",
+      "service3":" Photo Book : yes ( 12x12 )",
+      
+
+      "imageURL": "https://5.imimg.com/data5/VV/BO/MY-32322841/entertainment-party-organizer-goa-500x500.jpg"
+    },
+    {
+      "_id": "5",
+      "name": "Personal",
+      "price": "50",
+      "service1":" Video covering as need",
+      "service2":"Cinematography",
+      "service3":" Photo Book : yes ( 12x12 )",
+      
+
+      "imageURL": "https://img.etimg.com/thumb/msid-90833668,width-1200,height-900,resizemode-4,imgsize-69294/ranbir-kapoor-alia-bhatt-wedding-live-news-and-latest-updates-14-april-2022.jpg"
+    }
+    
+  ]
+  

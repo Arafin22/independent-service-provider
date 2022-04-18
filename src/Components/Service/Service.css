@@ -1,0 +1,21 @@
+.service-item{
+    margin: 10%;
+}
+.link {
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 20px;
+    color: #1e90c2;
+    transition: color ease-in-out 300ms;
+  }
+  
+  .link:hover {
+    color: #1b4388;
+  }
+
+.services-img{
+
+    height: 80px;
+    
+}
+
