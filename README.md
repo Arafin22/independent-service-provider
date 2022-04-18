@@ -15,6 +15,10 @@ npm install react-bootstrap bootstrap
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+npm install firebase
+
+npm install --save react-firebase-hooks
+
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
