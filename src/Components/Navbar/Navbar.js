@@ -16,7 +16,10 @@ const Navbar = () => {
     console.log(cart);
     return (
         <nav>
-             <div className='link-container'>
+             <div>
+
+             <spam className='link'>One Photographer</spam>
+            
         <NavLink
           className={({ isActive }) => (isActive ? "active-link" : "link")}
           to='/'
