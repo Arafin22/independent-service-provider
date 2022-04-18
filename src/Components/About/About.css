@@ -1,0 +1,36 @@
+.about-body{
+    position: relative;
+    width: 60%;
+    margin: 4rem auto;
+    height: 50%;
+    border-radius: 20px;
+    padding: 40px;
+    border: 1px solid rebeccapurple;
+    text-align: center;
+    box-shadow: 3px 3px 31px 2px #7C72C3;
+}
+.about-body>h1,h3{
+    color: rebeccapurple;
+    
+
+}
+
+.about-body>img{
+    box-shadow: 3px 3px 31px 2px #7C72C3;
+    height: 150px;
+    border: 1px solid rebeccapurple;
+}
+.about-body>p{
+    color: rebeccapurple;
+}
+@media only screen and (max-width: 600px){
+    .about-body{
+        width: 90%;
+        height: 30%;
+    }
+    .about-body>h1{
+        font-size: 30px;
+        
+    
+    }
+}

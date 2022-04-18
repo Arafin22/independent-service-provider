@@ -8,8 +8,12 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+npm install react-router-dom@6
+npm install react-bootstrap bootstrap
+
+{/_ The following line can be included in your src/index.js or App.js file_/}
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
