@@ -7,7 +7,7 @@ cart route is protected .if any user try to coder some package he/her must signu
 
 # demo site link
 
-[onephotographer](https://onephotographer-7a9fd.web.app).
+[onephotographer](https://onephotographer-7a9fd.web.app)
 
 ## Available Scripts
 
@@ -16,12 +16,16 @@ cart route is protected .if any user try to coder some package he/her must signu
 1.react bootstrap(also bootstrap cdn) and raw css
 -npm install react-bootstrap bootstrap
 (all about design parpus).
+
 2.it is a react app
 -npm create-react-app onephotographer
+
 3.react router(for routing)
 -npm install react-router-dom@6
+
 4.firebase(for authentication)
 -npm install firebase
+
 5.react-firebase-hooks for easy to handel authentication system
 -npm install --save react-firebase-hooks
 
